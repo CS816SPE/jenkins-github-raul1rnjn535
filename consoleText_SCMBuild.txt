@@ -1,0 +1,62 @@
+Started by an SCM change
+Building in workspace /var/lib/jenkins/workspace/HelloWorld
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/CS816SPE/jenkins-github-raul1rnjn535 # timeout=10
+Fetching upstream changes from https://github.com/CS816SPE/jenkins-github-raul1rnjn535
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/CS816SPE/jenkins-github-raul1rnjn535 +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e75b4fc5205ca8ea52367d6eadc78b9b5223cf97 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e75b4fc5205ca8ea52367d6eadc78b9b5223cf97
+Commit message: "hello world included loop in code"
+ > git rev-list --no-walk 1b4168f8e4a2369d070afc36e97a09c6e5b7a3b7 # timeout=10
+[HelloWorld] $ /bin/sh -xe /tmp/jenkins7632804172569626862.sh
++ g++ helloworld.cpp
++ ./a.out
+Hello World! The answer to Life, Universe and everything is 42...
+Iteration...0
+Iteration...1
+Iteration...2
+Iteration...3
+Iteration...4
+Iteration...5
+Iteration...6
+Iteration...7
+Iteration...8
+Iteration...9
+Iteration...10
+Iteration...11
+Iteration...12
+Iteration...13
+Iteration...14
+Iteration...15
+Iteration...16
+Iteration...17
+Iteration...18
+Iteration...19
+Iteration...20
+Iteration...21
+Iteration...22
+Iteration...23
+Iteration...24
+Iteration...25
+Iteration...26
+Iteration...27
+Iteration...28
+Iteration...29
+Iteration...30
+Iteration...31
+Iteration...32
+Iteration...33
+Iteration...34
+Iteration...35
+Iteration...36
+Iteration...37
+Iteration...38
+Iteration...39
+Iteration...40
+Iteration...41
+Finished: SUCCESS
